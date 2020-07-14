@@ -11,7 +11,7 @@ var options={
     bodyB:body2,
     pointB:{x:this.offsetX,y:this.offsetY}
   }
-  this.rope = Constraint.create(options)
+  this.rope = Matter.Constraint.create(options)
   World.add(world,this.rope)
 
 }
